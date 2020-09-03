@@ -8,6 +8,10 @@ body{
 }
 
 /* header */
+#header{
+    display: grid;
+}
+
 #header ul li{
     display: inline;
     margin-right: 20px;
@@ -41,8 +45,8 @@ body{
     border-radius:10px;
     color: white;
     font-size: 60pt;
-    font-family:華康少女文字W3;
-    background-color:rgba(226, 226, 226,0.5);
+    font-family:'華康少女文字W5',DFKai-SB;
+    background-color:rgba(255, 255, 255, 0.5);
 }
 
 #main #cat{
@@ -52,4 +56,9 @@ body{
     bottom: 100px;
     width: 200px;
     height: 200px;
+}
+
+/* footer */
+#footer{
+    display: grid;
 }
